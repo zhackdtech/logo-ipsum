@@ -1,7 +1,9 @@
 * {
     font-family: dmsans;
 }
-
+a{
+    text-decoration: none;
+}
 .bs-icon {
     --bs-icon-size: .75rem;
     display: flex;
