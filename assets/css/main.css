@@ -229,7 +229,8 @@ a {
 .pricing-button-2 {
     width: 285px;
     height: 60px;
-    flex-shrink: 0;border-radius: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
     background: #9F3919;
     border: 1px solid #9F3919;
     color: #fff;
@@ -241,6 +242,7 @@ a {
     line-height: normal;
     letter-spacing: -0.531px;
 }
+
 .pricing-card-sub-title {
     color: #696871;
     text-align: center;
@@ -288,12 +290,27 @@ a {
     /* 294.118% */
     letter-spacing: -0.531px;
 }
-.pricing-card-unit
-{
+
+.pricing-card-unit {
     font-family: DMSans;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 56px;
     letter-spacing: -1.034px;
+}
+
+h5 {
+    color: #19191B;
+    font-family: DMSans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 150% */
+    letter-spacing: -0.75px;
+}
+.text-body-secondary
+{
+    color:#1D293F !important
 }
