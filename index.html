@@ -5,9 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>logo-ipsum</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <meta name="twitter:title" content="logo-ipsum">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="assets/img/Logo%20Color.jpg">
@@ -21,7 +25,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md py-3">
+    <nav class="navbar navbar-light navbar-expand-md py-3" data-aos="fade-up">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center p-3" href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="41" viewBox="0 0 200 41" fill="none">
@@ -83,13 +87,13 @@
                         <a class="nav-link" href="#">Blog</a>
                     </li>
                 </ul>
-                <button class="nav-btn" type="button">Get started</button>
+                <button class="btn btn-secondary nav-btn" type="button">Get started</button>
             </div>
         </div>
     </nav>
     <main>
         <!-- header hero -->
-        <div class="container col-xxl-8 px-4 py-5">
+        <div class="container col-xxl-8 px-4" data-aos="zoom-in">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
                     <svg viewBox="0 0 610 644" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -118,16 +122,23 @@
                 </div>
                 <div class="col-lg-6">
                     <h1 class="display-5 fw-bold lh-1 mb-3">Grow your subscription business</h1>
-                    <p class="lead y-5">Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.</p>
+                    <p class="lead y-5">Outcome-centered products that reduce churn, optimize pricing, and grow your
+                        subscription business end-to-end.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="hero-btn px-4 me-md-2">Primary</button>
+                        <button type="button" class="btn btn-secondary hero-btn px-4 me-md-2">Get started</button>
                     </div>
                 </div>
             </div>
         </div>
         <!-- end header hero -->
     </main>
+    <script src="assets/js/aos.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            AOS.init();
+        })
+    </script>
 </body>
 
 </html>

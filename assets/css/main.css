@@ -120,4 +120,15 @@
     height: 60px;
     flex-shrink: 0;
     border: 1px solid #FF7143;
+    color: #fff
+}
+
+.hero-btn {
+    width: 211px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #5454D4;
+    color: #fff;
+    border: 1px solid #5454D4;
 }
